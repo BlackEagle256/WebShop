@@ -1,0 +1,16 @@
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\bin\Debug\netcoreapp2.1\Shop.Web.deps.json
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\bin\Debug\netcoreapp2.1\Shop.Web.runtimeconfig.json
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\bin\Debug\netcoreapp2.1\Shop.Web.runtimeconfig.dev.json
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\bin\Debug\netcoreapp2.1\Shop.Web.dll
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\bin\Debug\netcoreapp2.1\Shop.Web.pdb
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\obj\Debug\netcoreapp2.1\Shop.Web.csprojAssemblyReference.cache
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\obj\Debug\netcoreapp2.1\Shop.Web.AssemblyInfoInputs.cache
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\obj\Debug\netcoreapp2.1\Shop.Web.AssemblyInfo.cs
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\obj\Debug\netcoreapp2.1\Shop.Web.csproj.CoreCompileInputs.cache
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\obj\Debug\netcoreapp2.1\Shop.Web.RazorAssemblyInfo.cache
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\obj\Debug\netcoreapp2.1\Shop.Web.RazorAssemblyInfo.cs
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\obj\Debug\netcoreapp2.1\Shop.Web.RazorTargetAssemblyInfo.cache
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\obj\Debug\netcoreapp2.1\Shop.Web.dll
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\obj\Debug\netcoreapp2.1\Shop.Web.pdb
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.Web\obj\Debug\netcoreapp2.1\Shop.Web.genruntimeconfig.cache
