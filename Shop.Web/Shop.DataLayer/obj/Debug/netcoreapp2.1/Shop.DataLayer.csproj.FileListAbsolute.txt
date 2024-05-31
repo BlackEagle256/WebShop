@@ -1,0 +1,9 @@
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.DataLayer\bin\Debug\netcoreapp2.1\Shop.DataLayer.deps.json
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.DataLayer\bin\Debug\netcoreapp2.1\Shop.DataLayer.dll
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.DataLayer\bin\Debug\netcoreapp2.1\Shop.DataLayer.pdb
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.DataLayer\obj\Debug\netcoreapp2.1\Shop.DataLayer.csprojAssemblyReference.cache
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.DataLayer\obj\Debug\netcoreapp2.1\Shop.DataLayer.AssemblyInfoInputs.cache
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.DataLayer\obj\Debug\netcoreapp2.1\Shop.DataLayer.AssemblyInfo.cs
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.DataLayer\obj\Debug\netcoreapp2.1\Shop.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.DataLayer\obj\Debug\netcoreapp2.1\Shop.DataLayer.dll
+C:\Users\mohammadhosein\Desktop\WebShop\Shop.Web\Shop.DataLayer\obj\Debug\netcoreapp2.1\Shop.DataLayer.pdb
