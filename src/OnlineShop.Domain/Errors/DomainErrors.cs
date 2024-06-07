@@ -113,4 +113,29 @@ public static class DomainErrors
             "Authentication.InvalidEmailOrPassword",
             "The specified email or password are incorrect.");
     }
+
+    /// <summary>
+    /// Contains the role errors.
+    /// </summary>
+    public static class Role
+    {
+        public static Error DuplicateRole => new(
+            "Role.DuplicateRole",
+            "The specified role is already in use.");
+        public static Error NotFound => new (
+            "Role.NotFound",
+            "The role with the specified identifier was not found.");
+    }
+    /// <summary>
+    /// Contains the user in role errors.
+    /// </summary>
+    public static class UserInRole
+    {
+        public static Error UserHasNoRule => new(
+            "UserInRole.UserHasNoRule",
+            "The specified user doesn't have role.");
+        public static Error UserHasRule => new(
+            "UserInRole.UserHasRule",
+            "The specified user already have the role.");
+    }
 }

@@ -1,6 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using OnlineShop.Application.Users.Commands.AddRoleToUser;
 using OnlineShop.Application.Users.Commands.ChangePassword;
+using OnlineShop.Application.Users.Commands.RemoveRoleFromUser;
 using OnlineShop.Application.Users.Commands.UpdateUser;
 using OnlineShop.Application.Users.Queries.GetUserById;
 using OnlineShop.Contracts.Users;
@@ -46,4 +48,24 @@ public sealed class UsersController : ApiController
             .Map(request => new ChangePasswordCommand(request.UserId, request.Password))
             .Bind(command => Mediator.Send(command))
             .Match(Ok, BadRequest);
+
+    [HttpPut(ApiRoutes.Users.AddRole)]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ApiErrorResponse), StatusCodes.Status400BadRequest)]
+    public async Task<IActionResult> AddRole(Guid userId, AddUserToRoleRequest addUserToRoleRequest) =>
+        await Result.Create(addUserToRoleRequest, DomainErrors.General.UnProcessableRequest)
+        .Ensure(request => request.UserId == userId, DomainErrors.General.UnProcessableRequest)
+        .Map(request => new AddRoleToUserCommand(request.UserId, request.Role))
+        .Bind(command => Mediator.Send(command))
+        .Match(Ok, BadRequest);
+    
+    [HttpPut(ApiRoutes.Users.RemoveRole)]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ApiErrorResponse), StatusCodes.Status400BadRequest)]
+    public async Task<IActionResult> RemoveRole(Guid userId, RemoveRoleFromUserRequest removeRoleFromUser) =>
+        await Result.Create(removeRoleFromUser, DomainErrors.General.UnProcessableRequest)
+        .Ensure(request => request.UserId == userId, DomainErrors.General.UnProcessableRequest)
+        .Map(request => new RemoveRoleFromUserCommand(request.UserId, request.Role))
+        .Bind(command => Mediator.Send(command))
+        .Match(Ok, BadRequest);
 }
